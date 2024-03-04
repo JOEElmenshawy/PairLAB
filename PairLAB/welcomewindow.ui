@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>627</width>
-    <height>464</height>
+    <width>659</width>
+    <height>536</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,13 +39,13 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; color:#ffffff;&quot;&gt;Welcome&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="ImageLabel">
+  <widget class="QLabel" name="Image1">
    <property name="geometry">
     <rect>
      <x>120</x>
      <y>60</y>
-     <width>461</width>
-     <height>331</height>
+     <width>421</width>
+     <height>301</height>
     </rect>
    </property>
    <property name="text">

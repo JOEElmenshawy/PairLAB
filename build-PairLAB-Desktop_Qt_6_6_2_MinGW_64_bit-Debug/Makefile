@@ -234,7 +234,7 @@ Makefile: ../PairLAB/PairLAB.pro C:/Qt/QT2/6.6.2/mingw_64/mkspecs/win32-g++/qmak
 		C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Core.prl \
 		C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6EntryPoint.prl \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/build_pass.prf \
-		../PairLAB/Resources.qrc
+		../PairLAB/resources.qrc
 	$(QMAKE) -o Makefile ..\PairLAB\PairLAB.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/spec_pre.prf:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/device_config.prf:
@@ -400,7 +400,7 @@ C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Gui.prl:
 C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Core.prl:
 C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6EntryPoint.prl:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/build_pass.prf:
-../PairLAB/Resources.qrc:
+../PairLAB/resources.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\PairLAB\PairLAB.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 

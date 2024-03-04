@@ -12,3 +12,5 @@ RegisterWindow::~RegisterWindow()
 {
     delete ui;
 }
+
+

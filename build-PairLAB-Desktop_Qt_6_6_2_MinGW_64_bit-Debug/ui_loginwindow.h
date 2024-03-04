@@ -67,7 +67,7 @@ public:
         loginWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(loginWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 26));
+        menubar->setGeometry(QRect(0, 0, 800, 21));
         loginWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(loginWindow);
         statusbar->setObjectName("statusbar");
@@ -85,7 +85,7 @@ public:
         label_2->setText(QCoreApplication::translate("loginWindow", "passoword", nullptr));
         loginbutton->setText(QCoreApplication::translate("loginWindow", "login", nullptr));
         registerbutton->setText(QCoreApplication::translate("loginWindow", "register", nullptr));
-        Errorlabel->setText(QCoreApplication::translate("loginWindow", "<html><head/><body><p><br/></p></body></html>", nullptr));
+        Errorlabel->setText(QCoreApplication::translate("loginWindow", "<html><head/><body><p><span style=\" font-size:11pt; color:#ff0000;\">Error : wrong uername or password </span></p></body></html>", nullptr));
     } // retranslateUi
 
 };

@@ -134,7 +134,7 @@ public:
         femaleradiobutton->setGeometry(QRect(10, 40, 110, 24));
         AccountTypeGroupBox = new QGroupBox(RegisterWindow);
         AccountTypeGroupBox->setObjectName("AccountTypeGroupBox");
-        AccountTypeGroupBox->setGeometry(QRect(170, 210, 120, 80));
+        AccountTypeGroupBox->setGeometry(QRect(160, 210, 141, 91));
         UserRadioButton = new QRadioButton(AccountTypeGroupBox);
         UserRadioButton->setObjectName("UserRadioButton");
         UserRadioButton->setGeometry(QRect(0, 20, 110, 24));
