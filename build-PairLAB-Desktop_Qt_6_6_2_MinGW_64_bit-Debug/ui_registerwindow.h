@@ -116,7 +116,7 @@ public:
         yearlineedit->setGeometry(QRect(170, 170, 113, 26));
         Usernameerror = new QLabel(RegisterWindow);
         Usernameerror->setObjectName("Usernameerror");
-        Usernameerror->setGeometry(QRect(210, 10, 121, 20));
+        Usernameerror->setGeometry(QRect(210, 10, 171, 20));
         NotMatchingError = new QLabel(RegisterWindow);
         NotMatchingError->setObjectName("NotMatchingError");
         NotMatchingError->setGeometry(QRect(260, 70, 101, 20));
@@ -196,7 +196,7 @@ public:
         Monthcombobox->setItemText(9, QCoreApplication::translate("RegisterWindow", "Nov", nullptr));
         Monthcombobox->setItemText(10, QCoreApplication::translate("RegisterWindow", "Dec", nullptr));
 
-        Usernameerror->setText(QCoreApplication::translate("RegisterWindow", "<html><head/><body><p><span style=\" color:#ff0000;\">Username error</span></p></body></html>", nullptr));
+        Usernameerror->setText(QCoreApplication::translate("RegisterWindow", "<html><head/><body><p><span style=\" color:#ff0000;\">Username already exists</span></p></body></html>", nullptr));
         NotMatchingError->setText(QCoreApplication::translate("RegisterWindow", "<html><head/><body><p><span style=\" color:#ff0000;\">Not matching</span></p></body></html>", nullptr));
         ageError->setText(QCoreApplication::translate("RegisterWindow", "<html><head/><body><p><span style=\" color:#ff0000;\">Age is less than 12</span></p></body></html>", nullptr));
         gendergroupbox->setTitle(QCoreApplication::translate("RegisterWindow", "Gender", nullptr));

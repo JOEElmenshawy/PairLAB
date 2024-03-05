@@ -63,11 +63,11 @@ public:
         registerbutton->setGeometry(QRect(110, 140, 93, 29));
         Errorlabel = new QLabel(centralwidget);
         Errorlabel->setObjectName("Errorlabel");
-        Errorlabel->setGeometry(QRect(10, 90, 231, 20));
+        Errorlabel->setGeometry(QRect(10, 90, 301, 20));
         loginWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(loginWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 21));
+        menubar->setGeometry(QRect(0, 0, 800, 26));
         loginWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(loginWindow);
         statusbar->setObjectName("statusbar");

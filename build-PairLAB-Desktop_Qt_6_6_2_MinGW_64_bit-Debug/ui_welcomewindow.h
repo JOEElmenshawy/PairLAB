@@ -35,13 +35,13 @@ public:
         HellowLabel->setGeometry(QRect(20, 20, 151, 20));
         WelcomeLabel = new QLabel(WelcomeWindow);
         WelcomeLabel->setObjectName("WelcomeLabel");
-        WelcomeLabel->setGeometry(QRect(150, 80, 361, 81));
+        WelcomeLabel->setGeometry(QRect(210, -10, 241, 81));
         Image1 = new QLabel(WelcomeWindow);
         Image1->setObjectName("Image1");
-        Image1->setGeometry(QRect(120, 60, 421, 301));
+        Image1->setGeometry(QRect(120, 60, 471, 361));
         logoutbutton = new QPushButton(WelcomeWindow);
         logoutbutton->setObjectName("logoutbutton");
-        logoutbutton->setGeometry(QRect(110, 420, 93, 29));
+        logoutbutton->setGeometry(QRect(110, 470, 93, 29));
 
         retranslateUi(WelcomeWindow);
 
